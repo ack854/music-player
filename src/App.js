@@ -33,7 +33,7 @@ function App() {
     dispatch(getSongs(songs));
   };
   useEffect(() => {
-    axios("http://music-player-one-swart.vercel.app/songs")
+    axios("https://music-player-one-swart.vercel.app/songs")
       .then((response) => {
         setSongs(response?.data);
         handleGetSongs(response?.data);
@@ -41,7 +41,7 @@ function App() {
       .then((data) => {});
   }, [favouriteChanged]);
   useEffect(() => {
-    axios("http://music-player-one-swart.vercel.app/songs")
+    axios("https://music-player-one-swart.vercel.app/songs")
       .then((response) => {
         setSongs(response?.data);
         setCurrentSong(response?.data[0]);
