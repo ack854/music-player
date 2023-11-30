@@ -19,11 +19,11 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { addFav, removeFav } from "../redux/actions";
 
-import Switch from '@mui/material/Switch';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
+import Switch from "@mui/material/Switch";
+import FormGroup from "@mui/material/FormGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import FormControl from "@mui/material/FormControl";
+import FormLabel from "@mui/material/FormLabel";
 
 const Player = ({
   currentSong,
@@ -38,8 +38,7 @@ const Player = ({
   setSongs,
   favouriteChange,
   setIsAutoPlay,
-  isAutoPlay
-  
+  isAutoPlay,
 }) => {
   const [isFavourite, setIsFavourite] = useState(currentSong?.isFavourite);
   const [open, setOpen] = useState(false);
@@ -179,9 +178,9 @@ const Player = ({
   };
 
   const handleAutoplay = (event) => {
-    console.log(event?.target?.checked)
+    console.log(event?.target?.checked);
     setIsAutoPlay(event?.target?.checked);
-  }
+  };
   const action = (
     <>
       <IconButton
@@ -214,6 +213,26 @@ const Player = ({
           <div style={trackAnim} className="animate-track"></div>
         </div>
         <p>{songInfo.duration ? getTime(songInfo.duration) : "00:00"}</p>
+      </div>
+      <div>
+        <FormControl component="fieldset">
+          <FormGroup aria-label="position" row>
+            <FormControlLabel
+              value="start"
+              control={
+                <Switch
+                  color="primary"
+                  sx={{ color: "white" }}
+                  checked={isAutoPlay}
+                  onChange={(evnt) => handleAutoplay(evnt)}
+                />
+              }
+              label="Autoplay"
+              style={{ color: "white" }}
+              labelPlacement="start"
+            />
+          </FormGroup>
+        </FormControl>
       </div>
       <div className="play-control">
         <FastRewindTwoToneIcon sx={{ fontSize: 40 }} onClick={fastRewind} />
@@ -263,19 +282,6 @@ const Player = ({
         )}
         <ShareIcon sx={{ fontSize: 30 }} />
         <FileDownloadIcon sx={{ fontSize: 30 }} onClick={handleDownload} />
-      </div>
-      <div>
-      <FormControl component="fieldset">
-      <FormGroup aria-label="position" row>
-        <FormControlLabel
-          value="start"
-          control={<Switch color="primary" sx={{color:'white'}} checked={isAutoPlay} onChange={(evnt) => handleAutoplay(evnt)} />}
-          label="Autoplay"
-          style={{color:'white'}}
-          labelPlacement="start"
-        />
-      </FormGroup>
-    </FormControl>
       </div>
       <Snackbar
         open={open}
