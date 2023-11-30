@@ -4,6 +4,7 @@ import FastRewindTwoToneIcon from "@mui/icons-material/FastRewindTwoTone";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import axios from "axios";
 import Snackbar from "@mui/material/Snackbar";
 import IconButton from "@mui/material/IconButton";
@@ -35,6 +36,8 @@ const Player = ({
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState();
   const dispatch = useDispatch();
+
+  console.log(currentSong, songInfo);
 
   const handleClick = (isFav) => {
     if (isFav) {
@@ -155,6 +158,16 @@ const Player = ({
     audioRef.current.currentTime = audioRef.current.currentTime - 10;
     setSongInfo({ ...songInfo, currentTime: songInfo?.currentTime - 10 });
   };
+
+  const handleDownload = () => {
+    const audioFileUrl = currentSong.audio;
+    const downloadLink = document.createElement("a");
+    downloadLink.href = audioFileUrl;
+    downloadLink.download = `${currentSong.name}.mp3`;
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+  };
   const action = (
     <>
       <IconButton
@@ -235,6 +248,7 @@ const Player = ({
           />
         )}
         <ShareIcon sx={{ fontSize: 30 }} />
+        <FileDownloadIcon sx={{ fontSize: 30 }} onClick={handleDownload} />
       </div>
       <Snackbar
         open={open}
