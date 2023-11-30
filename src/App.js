@@ -35,7 +35,9 @@ function App() {
   useEffect(() => {
     setSongs(data?.songs);
     handleGetSongs(data?.songs);
-    setCurrentSong(data?.songs[0]);
+    if (!favouriteChanged) {
+      setCurrentSong(data?.songs[0]);
+    }
   }, [favouriteChanged]);
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
