@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 const Nav = ({ setLibraryStatus, libraryStatus }) => { 
 	return ( 
 		<nav> 
-			<h1 style={{color:'black'}}>പാട്ടുപെട്ടി </h1> 
+			<h1>പാട്ടുപെട്ടി </h1> 
 			<button 
 				onClick={() => { 
 					setLibraryStatus(!libraryStatus); 

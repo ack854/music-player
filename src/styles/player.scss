@@ -19,6 +19,7 @@
 	p { 
 		padding: 1rem; 
 		font-weight: 700; 
+        color: white;
 	} 
 } 
 .play-control { 
@@ -26,7 +27,8 @@
 	justify-content: space-between; 
 	align-items: center; 
 	padding: 1rem; 
-	width: 30%; 
+	width: 30%;
+    color: white;
 	svg { 
 		cursor: pointer; 
 	} 
