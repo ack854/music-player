@@ -1,4 +1,3 @@
-// FileName: App.js
 import { useEffect, useRef, useState } from "react";
 import Player from "./componments/PlayerSong";
 import Song from "./componments/Song";
