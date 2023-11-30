@@ -14,6 +14,7 @@ function App() {
 
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isAutoPlay, setIsAutoPlay] = useState(false);
   const [libraryStatus, setLibraryStatus] = useState(false);
   const [favouriteChanged, setFavouriteChanged] = useState(0);
   const audioRef = useRef(null);
@@ -52,11 +53,22 @@ function App() {
     });
   };
   const songEndHandler = async () => {
+    console.log("end");
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-
+    console.log(currentIndex);
     await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-
-    if (isPlaying) audioRef.current.play();
+    setIsPlaying(!isPlaying);
+    console.log(isAutoPlay);
+    //if (isPlaying) audioRef.current.play();
+    if (isAutoPlay) {
+      setIsPlaying(true);
+      console.log(audioRef?.current);
+      if (audioRef?.current) {
+        setTimeout(() => {
+          audioRef?.current?.play();
+        }, 2000);
+      }
+    }
   };
 
   return (
@@ -70,6 +82,8 @@ function App() {
         setSongInfo={setSongInfo}
         audioRef={audioRef}
         isPlaying={isPlaying}
+        setIsAutoPlay={setIsAutoPlay}
+        isAutoPlay={isAutoPlay}
         setIsPlaying={setIsPlaying}
         currentSong={currentSong}
         setCurrentSong={setCurrentSong}

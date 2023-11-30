@@ -42,12 +42,12 @@
 	width: 5px; 
 } 
 ::-webkit-scrollbar-thumb { 
-	background: rgb(255, 183, 183); 
+	background: white; 
 	border-radius: 10px; 
 } 
 
 ::-webkit-scrollbar-track { 
-	background: rgb(221, 221, 221); 
+	background: rgb(0, 0, 0); 
 } 
 .selected { 
 	background: rgb(255, 230, 255); 

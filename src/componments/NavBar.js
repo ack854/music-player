@@ -13,7 +13,7 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
 			>
                 <Stack direction="row" spacing={1}>
 				<h4>Songs</h4> 
-                <LibraryMusicOutlinedIcon sx={{fontSize:'30', color:'#2e7d32'}}/>
+                <LibraryMusicOutlinedIcon sx={{fontSize:'30', color:'white'}}/>
                 </Stack>
 			</button> 
 		</nav> 

@@ -19,6 +19,12 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { addFav, removeFav } from "../redux/actions";
 
+import Switch from '@mui/material/Switch';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
+
 const Player = ({
   currentSong,
   isPlaying,
@@ -31,6 +37,9 @@ const Player = ({
   id,
   setSongs,
   favouriteChange,
+  setIsAutoPlay,
+  isAutoPlay
+  
 }) => {
   const [isFavourite, setIsFavourite] = useState(currentSong?.isFavourite);
   const [open, setOpen] = useState(false);
@@ -168,6 +177,11 @@ const Player = ({
     downloadLink.click();
     document.body.removeChild(downloadLink);
   };
+
+  const handleAutoplay = (event) => {
+    console.log(event?.target?.checked)
+    setIsAutoPlay(event?.target?.checked);
+  }
   const action = (
     <>
       <IconButton
@@ -249,6 +263,19 @@ const Player = ({
         )}
         <ShareIcon sx={{ fontSize: 30 }} />
         <FileDownloadIcon sx={{ fontSize: 30 }} onClick={handleDownload} />
+      </div>
+      <div>
+      <FormControl component="fieldset">
+      <FormGroup aria-label="position" row>
+        <FormControlLabel
+          value="start"
+          control={<Switch color="primary" sx={{color:'white'}} checked={isAutoPlay} onChange={(evnt) => handleAutoplay(evnt)} />}
+          label="Autoplay"
+          style={{color:'white'}}
+          labelPlacement="start"
+        />
+      </FormGroup>
+    </FormControl>
       </div>
       <Snackbar
         open={open}
