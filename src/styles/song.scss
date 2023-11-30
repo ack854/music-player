@@ -1,38 +1,85 @@
 /* FileName: song.scss */
 
-.song-container { 
-	min-height: 60vh; 
-	display: flex; 
-	flex-direction: column; 
-	align-items: center; 
-	justify-content: center; 
-	img { 
-		width: 20%; 
-		// 
-	} 
-	h2 { 
-		padding: 3rem 1rem 1rem 1rem; 
-	} 
-	h3 { 
-		font-size: 1rem; 
-	} 
-} 
-@media screen and (max-width: 768px) { 
-	.song-container { 
-		img { 
-			width: 60%; 
-		} 
-	} 
-} 
-@keyframes rotate { 
-	from { 
-		transform: rotate(0deg); 
-	} 
-	to { 
-		transform: rotate(360deg); 
-	} 
-} 
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 20%;
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    &:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px) rotate(0deg);
+      }
+      10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+      }
+      20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+      }
+      30% {
+        transform: translate(3px, 2px) rotate(0deg);
+      }
+      40% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+      50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+      }
+      60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+      }
+      70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+      }
+      80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+      }
+      90% {
+        transform: translate(1px, 2px) rotate(0deg);
+      }
+      100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+      }
+    }
+    //
+  }
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .song-container {
+    img {
+      width: 60%;
+    }
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-.rotateSong { 
-	animation: rotate 20s linear forwards infinite; 
-} 
+.rotateSong {
+  animation: rotate 20s linear forwards infinite;
+}
