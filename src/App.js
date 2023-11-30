@@ -8,6 +8,7 @@ import Library from "./componments/Library";
 import Nav from "./componments/NavBar";
 import { useDispatch } from "react-redux";
 import { getSongs } from "./redux/actions";
+import data from "./componments/data.json";
 
 function App() {
   const [songs, setSongs] = useState([]);
@@ -32,22 +33,27 @@ function App() {
   const handleGetSongs = (songs) => {
     dispatch(getSongs(songs));
   };
+  //   useEffect(() => {
+  //     axios("http://localhost:8082/songs")
+  //       .then((response) => {
+  //         setSongs(response?.data);
+  //         handleGetSongs(response?.data);
+  //       })
+  //       .then((data) => {});
+  //   }, [favouriteChanged]);
+  //   useEffect(() => {
+  //     axios("http://localhost:8082/songs")
+  //       .then((response) => {
+  //         setSongs(response?.data);
+  //         setCurrentSong(response?.data[0]);
+  //       })
+  //       .then((data) => {});
+  //   }, []);
   useEffect(() => {
-    axios("http://localhost:8082/songs")
-      .then((response) => {
-        setSongs(response?.data);
-        handleGetSongs(response?.data);
-      })
-      .then((data) => {});
+    setSongs(data?.songs);
+	handleGetSongs(data?.songs)
+    setCurrentSong(data?.songs[0]);
   }, [favouriteChanged]);
-  useEffect(() => {
-    axios("http://localhost:8082/songs")
-      .then((response) => {
-        setSongs(response?.data);
-        setCurrentSong(response?.data[0]);
-      })
-      .then((data) => {});
-  }, []);
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
     const duration = e.target.duration;
@@ -67,6 +73,50 @@ function App() {
 
     if (isPlaying) audioRef.current.play();
   };
+
+  const clientId = "11c16e78c3524a72a662f6368e336760";
+  const clientSecret = "8765340a972e4b299a12ac4b3c6ae43f";
+
+//   // Fetch access token using client credentials
+//   const getAccessToken = async () => {
+//     const response = await fetch("https://accounts.spotify.com/api/token", {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/x-www-form-urlencoded",
+//         Authorization: `Basic ${btoa(`${clientId}:${clientSecret}`)}`,
+//       },
+//       body: "grant_type=client_credentials",
+//     });
+
+//     const data = await response.json();
+//     return data.access_token;
+//   };
+
+//   // Fetch all tracks from a public playlist
+//   const getAllTracks = async (playlistId) => {
+//     const accessToken = await getAccessToken();
+//     console.log(accessToken);
+
+//     const response = await fetch(
+//       `https://api.spotify.com/v1/playlists/${playlistId}/tracks`,
+//       {
+//         headers: {
+//           Authorization: `Bearer ${accessToken}`,
+//         },
+//       }
+//     );
+
+//     const data = await response.json();
+//     console.log(data);
+//     return data.items;
+//   };
+//   const playListId = "3cEYpjA9oz9GiPac4AsH4n";
+//   getAllTracks(playListId).then((tracks) => {
+//     console.log(tracks);
+//   });
+
+//   console.log(data);
+
   return (
     <div>
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />

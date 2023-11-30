@@ -17,7 +17,9 @@ const Library = ({
   libraryStatus,
 }) => {
   const allLibrarySongs = useSelector((state) => state.songs);
+  console.log(allLibrarySongs)
   const favSongs = useSelector((state) => state.favourites);
+  console.log(favSongs)
   const showFavourites = () => {
     setSongs(favSongs);
   };
@@ -89,7 +91,7 @@ const Library = ({
             setSongs={setSongs}
             isPlaying={isPlaying}
             audioRef={audioRef}
-            songs={songs}
+            songs={allLibrarySongs}
             song={song}
             setCurrentSong={setCurrentSong}
             id={song.id}

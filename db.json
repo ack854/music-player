@@ -33,7 +33,7 @@
       "audio": "https://samplesongs.netlify.app/Faded.mp3",
       "id": 3,
       "active": false,
-      "isFavourite": false,
+      "isFavourite": true,
       "color": [
         "#205950",
         "#2ab3bf"
@@ -46,7 +46,7 @@
       "audio": "https://samplesongs.netlify.app/Hate%20Me.mp3",
       "id": 4,
       "active": false,
-      "isFavourite": false,
+      "isFavourite": true,
       "color": [
         "#205950",
         "#2ab3bf"

@@ -68,19 +68,26 @@ const Player = ({
   const handleFavourite = (isFav) => {
     setIsFavourite(isFav);
     const postData = { ...currentSong, isFavourite: isFav };
-    axios
-      .put(`http://localhost:8082/songs/${currentSong?.id}`, postData)
-      .then((data) => {
-        if (data?.status === 200) {
-          favouriteChange();
-          handleClick(isFav);
-          if (isFav) {
-            dispatch(addFav(postData));
-          } else {
-            dispatch(removeFav(postData));
-          }
-        }
-      });
+    // axios
+    //   .put(`http://localhost:8082/songs/${currentSong?.id}`, postData)
+    //   .then((data) => {
+    //     if (data?.status === 200) {
+    //       favouriteChange();
+    //       handleClick(isFav);
+    //       if (isFav) {
+    //         dispatch(addFav(postData));
+    //       } else {
+    //         dispatch(removeFav(postData));
+    //       }
+    //     }
+    //   });
+    favouriteChange();
+    handleClick(isFav);
+    if (isFav) {
+      dispatch(addFav(postData));
+    } else {
+      dispatch(removeFav(postData));
+    }
   };
   //useEffect
   const activeLibraryHandler = (nextPrev) => {
