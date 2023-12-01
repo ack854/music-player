@@ -21,19 +21,19 @@ const Library = ({
   const showFavourites = () => {
     setSongs(favSongs);
   };
-  const [value, setValue] = useState("one");
+  const [value, setValue] = useState("allSongs");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
-    if (newValue === "two") {
+    if (newValue === "favourites") {
       showFavourites();
-    } else if (newValue === "one") {
+    } else if (newValue === "allSongs") {
       setSongs(allLibrarySongs);
     }
   };
 
   useEffect(() => {
-    if (value === "two") {
+    if (value === "favourites") {
       showFavourites();
     }
   }, [favSongs]);
@@ -80,8 +80,8 @@ const Library = ({
   return (
     <div className={`library ${libraryStatus ? "active" : ""}`}>
       <ChildTabs value={value} onChange={handleChange} aria-label="ant example">
-        <ChildTab value="one" label="All Songs" />
-        <ChildTab value="two" label="Favourites" />
+        <ChildTab value="allSongs" label="All Songs" />
+        <ChildTab value="favourites" label="Favourites" />
       </ChildTabs>
       <div className="library-songs">
         {songs.map((song) => (
@@ -94,6 +94,7 @@ const Library = ({
             setCurrentSong={setCurrentSong}
             id={song.id}
             key={song.id}
+            libraryType={value}
           />
         ))}
       </div>

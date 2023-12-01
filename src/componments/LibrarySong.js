@@ -10,11 +10,16 @@ const LibrarySong = ({
   isPlaying,
   setSongs,
   id,
+  libraryType,
 }) => {
   const songSelectHandler = async () => {
     await setCurrentSong(song);
     //active
-    const newSongs = songs.map((song) => {
+    const filteredSongs =
+      libraryType === "favourites"
+        ? songs.filter((item) => item.isFavourite)
+        : songs;
+    const newSongs = filteredSongs.map((song) => {
       if (song.id === id) {
         return {
           ...song,
