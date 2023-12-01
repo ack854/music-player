@@ -1,82 +1,1457 @@
 {
-    "songs": [
-      {
-        "id": 1,
-        "name": "Death Bed",
-        "artist": "Powfu",
-        "cover": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
-        "audio": "https://samplesongs.netlify.app/Death%20Bed.mp3",
-        "active": false,
-        "isFavourite": true,
-        "color": [
-          "black",
-          "rgb(210 221 223))"
-        ]
+  "songs": [
+    {
+      "id": 1,
+      "name": "Death Bed",
+      "user": {
+        "username": "Powfu"
       },
-      {
-        "name": "Bad Liar",
-        "artist": "Imagine Dragons",
-        "cover": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
-        "audio": "https://samplesongs.netlify.app/Bad%20Liar.mp3",
-        "id": 2,
-        "active": false,
-        "isFavourite": true,
-        "color": [
-          "#205950",
-          "#2ab3bf"
-        ]
+      "artist": "Powfu",
+      "cover": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
+      "audio": "https://samplesongs.netlify.app/Death%20Bed.mp3",
+      "active": false,
+      "sources": {
+        "thumbnailUrl": "https://samplesongs.netlify.app/album-arts/death-bed.jpg",
+        "src": "https://samplesongs.netlify.app/Death%20Bed.mp3"
       },
-      {
-        "name": "Faded",
-        "artist": "Alan Walker",
-        "cover": "https://samplesongs.netlify.app/album-arts/faded.jpg",
-        "audio": "https://samplesongs.netlify.app/Faded.mp3",
-        "id": 3,
-        "active": false,
-        "isFavourite": true,
-        "color": [
-          "#205950",
-          "#2ab3bf"
-        ]
+      "isFavourite": true,
+      "color": ["black", "rgb(210 221 223))"]
+    },
+    {
+      "name": "Bad Liar",
+      "user": {
+        "username": "Imagine Dragons"
       },
-      {
-        "name": "Hate Me",
-        "artist": "Ellie Goulding",
-        "cover": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
-        "audio": "https://samplesongs.netlify.app/Hate%20Me.mp3",
-        "id": 4,
-        "active": false,
-        "isFavourite": false,
-        "color": [
-          "#205950",
-          "#2ab3bf"
-        ]
+      "artist": "Imagine Dragons",
+      "cover": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
+      "audio": "https://samplesongs.netlify.app/Bad%20Liar.mp3",
+      "id": 2,
+      "active": false,
+      "sources": {
+        "thumbnailUrl": "https://samplesongs.netlify.app/album-arts/bad-liar.jpg",
+        "src": "https://samplesongs.netlify.app/Bad%20Liar.mp3"
       },
-      {
-        "name": "Solo",
-        "artist": "Clean Bandit",
-        "cover": "https://samplesongs.netlify.app/album-arts/solo.jpg",
-        "audio": "https://samplesongs.netlify.app/Solo.mp3",
-        "id": 5,
-        "active": false,
-        "isFavourite": false,
-        "color": [
-          "#205950",
-          "#2ab3bf"
-        ]
+      "isFavourite": false,
+      "color": ["#205950", "#2ab3bf"]
+    },
+    {
+      "name": "Faded",
+      "user": {
+        "username": "Alan Walker"
       },
-      {
-        "name": "Without Me",
-        "artist": "Halsey",
-        "cover": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
-        "audio": "https://samplesongs.netlify.app/Without%20Me.mp3",
-        "id": 6,
-        "active": false,
-        "isFavourite": false,
-        "color": [
-          "#205950",
-          "#2ab3bf"
-        ]
-      }
-    ]
-  }
+      "artist": "Alan Walker",
+      "cover": "https://samplesongs.netlify.app/album-arts/faded.jpg",
+      "audio": "https://samplesongs.netlify.app/Faded.mp3",
+      "id": 3,
+      "active": false,
+      "sources": {
+        "thumbnailUrl": "https://samplesongs.netlify.app/album-arts/faded.jpg",
+        "src": "https://samplesongs.netlify.app/Faded.mp3"
+      },
+      "isFavourite": false,
+      "color": ["#205950", "#2ab3bf"]
+    },
+    {
+      "name": "Hate Me",
+      "user": {
+        "username": "Ellie Goulding"
+      },
+      "artist": "Ellie Goulding",
+      "cover": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
+      "audio": "https://samplesongs.netlify.app/Hate%20Me.mp3",
+      "id": 4,
+      "active": false,
+      "isFavourite": false,
+      "sources": {
+        "thumbnailUrl": "https://samplesongs.netlify.app/album-arts/hate-me.jpg",
+        "src": "https://samplesongs.netlify.app/Hate%20Me.mp3"
+      },
+      "color": ["#205950", "#2ab3bf"]
+    },
+    {
+      "name": "Solo",
+      "user": {
+        "username": "Clean Bandit"
+      },
+      "artist": "Clean Bandit",
+      "cover": "https://samplesongs.netlify.app/album-arts/solo.jpg",
+      "audio": "https://samplesongs.netlify.app/Solo.mp3",
+      "id": 5,
+      "sources": {
+        "thumbnailUrl": "https://samplesongs.netlify.app/album-arts/solo.jpg",
+        "src": "https://samplesongs.netlify.app/Solo.mp3"
+      },
+      "active": false,
+      "isFavourite": true,
+      "color": ["#205950", "#2ab3bf"]
+    },
+    {
+      "name": "Without Me",
+      "user": {
+        "username": "Halsey"
+      },
+      "artist": "Halsey",
+      "sources": {
+        "thumbnailUrl": "https://samplesongs.netlify.app/album-arts/without-me.jpg",
+        "src": "https://samplesongs.netlify.app/Without%20Me.mp3"
+      },
+      "id": 6,
+      "active": false,
+      "isFavourite": false,
+      "color": ["#205950", "#2ab3bf"]
+    },
+    {
+      "id": 7,
+      "duration": 160,
+      "mediaType": "audio",
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2021/11/23/audio_64b2dd1bce.mp3",
+        "waveformUrl": "/music/11157/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-11157.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.895534",
+      "href": "/music/beautiful-plays-just-relax-11157/",
+      "alt": "For streaming on Spotify / Apple music and more visit: https://lesfm.net/track/just-relax/",
+      "title": null,
+      "description": "Background Music, Royalty Free Music",
+      "name": "Just Relax",
+      "tagLinks": "<a href=\"/music/search/background%20music/\">background music</a>",
+      "likeCount": 2361,
+      "likeHref": "/accounts/like/audio/11157/",
+      "commentCount": 24,
+      "commentHref": "/music/beautiful-plays-just-relax-11157/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/lesfm-22579021/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=11157\">Oleksii Kaplunskyi</a> from <a href=\"https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=11157\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 22579021,
+        "username": "Lesfm",
+        "firstName": "Oleksii",
+        "lastName": "Kaplunskyi",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/06/18/09-26-46-83_96x96.png",
+        "profileUrl": "/users/lesfm-22579021/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/LesFreeMusic",
+            "type": 0
+          },
+          {
+            "url": "https://www.instagram.com/lesfreemusic/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/lesfreemusic",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCGidb49bbVT0li9auc1s0ag",
+            "type": 4
+          },
+          {
+            "url": "https://lesfm.net/",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.patreon.com/lesfreemusic",
+          "method": 1
+        },
+        "followerCount": 3626,
+        "aboutMe": "",
+        "isAvailableForHire": false
+      },
+      "viewCount": 4093022,
+      "downloadCount": 247920
+    },
+    {
+      "id": 8,
+      "duration": 138,
+      "mediaType": "audio",
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/05/05/audio_1395e7800f.mp3",
+        "waveformUrl": "/music/110624/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-110624.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.897144",
+      "href": "/music/acoustic-group-forest-lullaby-110624/",
+      "alt": "Lullaby, Nature, Relax, Acoustic, Guitar",
+      "title": null,
+      "description": "Lullaby, Nature, Relax, Acoustic, Guitar, Ambient, Ambiente",
+      "name": "Forest Lullaby",
+      "tagLinks": "<a href=\"/music/search/lullaby/\">lullaby</a> <a href=\"/music/search/nature/\">nature</a> <a href=\"/music/search/relax/\">relax</a>",
+      "likeCount": 3759,
+      "likeHref": "/accounts/like/audio/110624/",
+      "commentCount": 0,
+      "commentHref": "/music/acoustic-group-forest-lullaby-110624/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/lesfm-22579021/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=110624\">Oleksii Kaplunskyi</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=110624\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 22579021,
+        "username": "Lesfm",
+        "firstName": "Oleksii",
+        "lastName": "Kaplunskyi",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/06/18/09-26-46-83_96x96.png",
+        "profileUrl": "/users/lesfm-22579021/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/LesFreeMusic",
+            "type": 0
+          },
+          {
+            "url": "https://www.instagram.com/lesfreemusic/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/lesfreemusic",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCGidb49bbVT0li9auc1s0ag",
+            "type": 4
+          },
+          {
+            "url": "https://lesfm.net/",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.patreon.com/lesfreemusic",
+          "method": 1
+        },
+        "followerCount": 3626,
+        "aboutMe": "",
+        "isAvailableForHire": false
+      },
+      "viewCount": 4775017,
+      "downloadCount": 53731
+    },
+    {
+      "id": 9,
+      "isFavourite": true,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 175,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/11/11/audio_84306ee149.mp3",
+        "waveformUrl": "/music/125566/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-125566.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.898336",
+      "href": "/music/beautiful-plays-please-calm-my-mind-125566/",
+      "alt": "Relax, Relaxing, Calm, Calm Down, Piano",
+      "title": null,
+      "description": "Relax, Relaxing, Calm, Calm Down, Piano, Relaxing Music",
+      "name": "Please Calm My Mind",
+      "tagLinks": "<a href=\"/music/search/relax/\">relax</a> <a href=\"/music/search/relaxing/\">relaxing</a> <a href=\"/music/search/calm/\">calm</a>",
+      "likeCount": 2275,
+      "likeHref": "/accounts/like/audio/125566/",
+      "commentCount": 0,
+      "commentHref": "/music/beautiful-plays-please-calm-my-mind-125566/#comments",
+      "contentIdCertificateUrl": "/music/125566/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/lesfm-22579021/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=125566\">Oleksii Kaplunskyi</a> from <a href=\"https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=125566\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 22579021,
+        "username": "Lesfm",
+        "firstName": "Oleksii",
+        "lastName": "Kaplunskyi",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/06/18/09-26-46-83_96x96.png",
+        "profileUrl": "/users/lesfm-22579021/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/LesFreeMusic",
+            "type": 0
+          },
+          {
+            "url": "https://www.instagram.com/lesfreemusic/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/lesfreemusic",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCGidb49bbVT0li9auc1s0ag",
+            "type": 4
+          },
+          {
+            "url": "https://lesfm.net/",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.patreon.com/lesfreemusic",
+          "method": 1
+        },
+        "followerCount": 3626,
+        "aboutMe": "",
+        "isAvailableForHire": false
+      },
+      "viewCount": 3276707,
+      "downloadCount": 36656
+    },
+    {
+      "id": 10,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 217,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2021/11/13/audio_cb4f1212a9.mp3",
+        "waveformUrl": "/music/10711/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/11/08/09-55-29-436_200x200.png",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-10711.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.899518",
+      "href": "/music/beautiful-plays-ambient-piano-and-strings-10711/",
+      "alt": "SOTIFY:https://bit.ly/Spotify_Zakhar_Valaha",
+      "title": null,
+      "description": "Advertising, Ambient Music, Background, Business Music",
+      "name": "Ambient Piano and Strings",
+      "tagLinks": "<a href=\"/music/search/advertising/\">advertising</a>",
+      "likeCount": 2598,
+      "likeHref": "/accounts/like/audio/10711/",
+      "commentCount": 8,
+      "commentHref": "/music/beautiful-plays-ambient-piano-and-strings-10711/#comments",
+      "contentIdCertificateUrl": "/music/10711/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/daddy_s_music-22836301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=10711\">Zakhar Valaha</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=10711\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 22836301,
+        "username": "Daddy_s_Music",
+        "firstName": "Zakhar",
+        "lastName": "Valaha",
+        "avatarSrc": "https://cdn.pixabay.com/user/2021/11/15/21-52-29-99_96x96.png",
+        "profileUrl": "/users/daddy_s_music-22836301/",
+        "socialLinks": [
+          {
+            "url": "https://bit.ly/Spotify_Zakhar_Valaha",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "valaga83@gmail.com",
+          "method": 2
+        },
+        "followerCount": 3707,
+        "aboutMe": "All my music is registered in Content ID because it is the only method to protect my music from scammers who have repeatedly appropriated the rights to my tracks. Therefore, after uploading your video, just send the link to zaharval83@gmail.com and within 1-2 days the claim will be withdrawn.\r\nPayPal: https://bit.ly/Zakhar_Valaha_PayPal\r\nSpotify: https://bit.ly/Spotify_Zakhar_Valaha",
+        "isAvailableForHire": false
+      },
+      "viewCount": 3940367,
+      "downloadCount": 249807
+    },
+    {
+      "id": 11,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 177,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/01/26/audio_d0c6ff1bdd.mp3",
+        "waveformUrl": "/music/15700/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2022/04/06/06-57-42-712_200x200.png",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-15700.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.900748",
+      "href": "/music/solo-guitar-the-cradle-of-your-soul-15700/",
+      "alt": "Acoustic Guitar, Calm, Inspiring, Easy",
+      "title": null,
+      "description": "Acoustic Guitar, Calm, Inspiring, Easy, Motivational",
+      "name": "The Cradle of Your Soul",
+      "tagLinks": "<a href=\"/music/search/acoustic%20guitar/\">acoustic guitar</a> <a href=\"/music/search/calm/\">calm</a>",
+      "likeCount": 1839,
+      "likeHref": "/accounts/like/audio/15700/",
+      "commentCount": 136,
+      "commentHref": "/music/solo-guitar-the-cradle-of-your-soul-15700/#comments",
+      "contentIdCertificateUrl": "/music/15700/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/lemonmusicstudio-14942887/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15700\">Vitaliy Levkin</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15700\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 14942887,
+        "username": "lemonmusicstudio",
+        "firstName": "Vitaliy",
+        "lastName": "Levkin",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/01/17/05-59-46-931_96x96.jpg",
+        "profileUrl": "/users/lemonmusicstudio-14942887/",
+        "socialLinks": [
+          {
+            "url": "https://www.youtube.com/channel/UC0qt5lpQLL87Tp8z48XuRKQ",
+            "type": 4
+          },
+          {
+            "url": "https://artlist.io/artist/1388/leva",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.paypal.me/VitaliiLevkin",
+          "method": 1
+        },
+        "followerCount": 1728,
+        "aboutMe": "Hello! My name is Leva(My Spotify: https://open.spotify.com/artist/4XWZhZ32YrVV5lvpF7cr1E?si=tnbSklR7SJyPNKiHP4MbHA), I am a musician and composer working in several guitar genres from Acoustics\u00a0to\u00a0hard\u00a0Metal. If you want to release a claim, please send me an email with links to the video, with an indication of the track you used and I'll take the claims of. lemonmusicstudio@gmail.com",
+        "isAvailableForHire": false
+      },
+      "viewCount": 5039285,
+      "downloadCount": 228908
+    },
+    {
+      "id": 12,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 181,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/04/27/audio_30ff2fdf22.mp3",
+        "waveformUrl": "/music/110241/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-110241.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.901920",
+      "href": "/music/acoustic-group-sedative-110241/",
+      "alt": "Sedative, Sedative Music",
+      "title": null,
+      "description": "Sedative, Sedative Music, Background Music, Guitar, Acoustic",
+      "name": "Sedative",
+      "tagLinks": "<a href=\"/music/search/sedative/\">sedative</a> <a href=\"/music/search/sedative%20music/\">sedative music</a>",
+      "likeCount": 1926,
+      "likeHref": "/accounts/like/audio/110241/",
+      "commentCount": 0,
+      "commentHref": "/music/acoustic-group-sedative-110241/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/lesfm-22579021/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=110241\">Oleksii Kaplunskyi</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=110241\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 22579021,
+        "username": "Lesfm",
+        "firstName": "Oleksii",
+        "lastName": "Kaplunskyi",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/06/18/09-26-46-83_96x96.png",
+        "profileUrl": "/users/lesfm-22579021/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/LesFreeMusic",
+            "type": 0
+          },
+          {
+            "url": "https://www.instagram.com/lesfreemusic/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/lesfreemusic",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCGidb49bbVT0li9auc1s0ag",
+            "type": 4
+          },
+          {
+            "url": "https://lesfm.net/",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.patreon.com/lesfreemusic",
+          "method": 1
+        },
+        "followerCount": 3626,
+        "aboutMe": "",
+        "isAvailableForHire": false
+      },
+      "viewCount": 2616494,
+      "downloadCount": 32063
+    },
+    {
+      "id": 13,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 164,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/04/27/audio_67bcf729cf.mp3",
+        "waveformUrl": "/music/110235/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2022/08/12/09-43-51-852_200x200.png",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-110235.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.903225",
+      "href": "/music/beats-whip-110235/",
+      "alt": "Afro, Afro Pop, Afro Beat, Dancehall",
+      "title": null,
+      "description": "Afro, Afro Pop, Afro Beat, Dancehall, Melodic Beat",
+      "name": "Whip",
+      "tagLinks": "<a href=\"/music/search/afro/\">afro</a> <a href=\"/music/search/afro%20pop/\">afro pop</a> <a href=\"/music/search/afro%20beat/\">afro beat</a>",
+      "likeCount": 2357,
+      "likeHref": "/accounts/like/audio/110235/",
+      "commentCount": 65,
+      "commentHref": "/music/beats-whip-110235/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/prazkhanal-24653570/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=110235\">Praz Khanal</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=110235\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 24653570,
+        "username": "prazkhanal",
+        "firstName": "Praz",
+        "lastName": "Khanal",
+        "avatarSrc": "https://cdn.pixabay.com/user/2023/01/26/08-29-04-34_96x96.png",
+        "profileUrl": "/users/prazkhanal-24653570/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/Prazkhanalofficial",
+            "type": 0
+          },
+          {
+            "url": "https://twitter.com/prazkhanal",
+            "type": 1
+          },
+          {
+            "url": "https://www.instagram.com/prazkhanalmusic/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/praz_khanal",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/prazkhanal",
+            "type": 4
+          },
+          {
+            "url": "https://www.patreon.com/prazkhanalofficial",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "prashantkhanal1750@gmail.com",
+          "method": 2
+        },
+        "followerCount": 1467,
+        "aboutMe": "Production Team: UKA Music Publishing\r\nGet Soundtrack on Spotify: bit.ly/spotifypraz\r\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\r\nCopyright claims are updated every Monday. \r\n\r\n|All music is copyright free|\r\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014",
+        "isAvailableForHire": true
+      },
+      "viewCount": 2442726,
+      "downloadCount": 33399
+    },
+    {
+      "id": 14,
+      "duration": 224,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2023/04/27/audio_d6ce814591.mp3",
+        "waveformUrl": "/music/147979/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/04/29/06-36-55-462_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-147979.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.904675",
+      "href": "/music/beautiful-plays-reflected-light-147979/",
+      "alt": "Link to the track in the Facebook/Instagram audio library: https://www.instagram.com/reels/audio/221430543886002/",
+      "title": null,
+      "description": "Air, Ambient, Calm, Contemplative, Dreamy, Electronic",
+      "name": "Reflected Light",
+      "tagLinks": "<a href=\"/music/search/air/\">air</a> <a href=\"/music/search/ambient/\">ambient</a> <a href=\"/music/search/calm/\">calm</a>",
+      "likeCount": 1840,
+      "likeHref": "/accounts/like/audio/147979/",
+      "commentCount": 35,
+      "commentHref": "/music/beautiful-plays-reflected-light-147979/#comments",
+      "contentIdCertificateUrl": "/music/147979/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/sergepavkinmusic-6130722/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=147979\">Sergii Pavkin</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=147979\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 6130722,
+        "username": "SergePavkinMusic",
+        "firstName": "Sergii",
+        "lastName": "Pavkin",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/08/21/16-02-00-746_96x96.jpg",
+        "profileUrl": "/users/sergepavkinmusic-6130722/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/sergepavkinmusic/",
+            "type": 2
+          },
+          {
+            "url": "https://www.youtube.com/c/SergePavkinMusic",
+            "type": 4
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.buymeacoffee.com/SergePavkin",
+          "method": 1
+        },
+        "followerCount": 1035,
+        "aboutMe": "Hi, you can use my music for free in your YouTube Videos and Shorts, TikTok Videos, Facebook/Instagram Reels (find my tracks in Facebook/Instagram audio library).\r\n\r\nNOT for songs, apps, music libraries!\r\nNOT for distribution on streaming platforms and digital stores (Spotify, Amazon, Apple music e.t.c.)!\r\n\r\nhttps://www.youtube.com/c/SergePavkinMusic\r\nhttps://open.spotify.com/artist/0QCoTG5IWHTncQ8A1uoUxM\r\nhttps://music.apple.com/us/artist/serge-pavkin/1540924634\r\nand more.",
+        "isAvailableForHire": false
+      },
+      "viewCount": 833221,
+      "downloadCount": 17870
+    },
+    {
+      "id": 15,
+      "duration": 109,
+      "mediaType": "audio",
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2023/10/24/audio_9408f7326a.mp3",
+        "waveformUrl": "/music/173062/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/10/24/15-08-22-671_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-173062.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.905985",
+      "href": "/music/upbeat-drive-breakbeat-173062/",
+      "alt": "\"Drive Breakbeat\" is an energetic and rhythmically intense music genre that fuses elements of breakbeat and electronic dance music. This genre is characterized by its pulsating beats, dynamic basslines, and a sense of drive and momentum that makes it ideal for action-packed scene",
+      "title": null,
+      "description": "Drive, Breakbeat, Music, Energetic, Rhythmic, Beats",
+      "name": "Drive Breakbeat",
+      "tagLinks": "<a href=\"/music/search/drive/\">drive</a> <a href=\"/music/search/breakbeat/\">breakbeat</a> <a href=\"/music/search/music/\">music</a>",
+      "likeCount": 894,
+      "likeHref": "/accounts/like/audio/173062/",
+      "commentCount": 26,
+      "commentHref": "/music/upbeat-drive-breakbeat-173062/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/rockot-1947599/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=173062\">Zakhar Dziubenko</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=173062\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 1947599,
+        "username": "Rockot",
+        "firstName": "Zakhar",
+        "lastName": "Dziubenko",
+        "avatarSrc": "https://cdn.pixabay.com/user/2023/10/24/14-21-56-296_96x96.jpeg",
+        "profileUrl": "/users/rockot-1947599/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/ZakharDziubenko/",
+            "type": 0
+          },
+          {
+            "url": "https://www.instagram.com/zakhar_dziubenko/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/rockot_music",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/@Rockot",
+            "type": 4
+          },
+          {
+            "url": "https://linktr.ee/rockot",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.buymeacoffee.com/rockot",
+          "method": 1
+        },
+        "followerCount": 140,
+        "aboutMe": "Zakhar Dziubenko - (ROCKOT) \r\nMulti - genre music producer from Ukraine.\r\nif I'm gone let my music live on!",
+        "isAvailableForHire": false
+      },
+      "viewCount": 3094,
+      "downloadCount": 5859
+    },
+    {
+      "id": 16,
+      "duration": 208,
+      "mediaType": "audio",
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/10/12/audio_061cead49a.mp3",
+        "waveformUrl": "/music/122592/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2022/10/12/09-28-04-865_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-122592.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.907108",
+      "href": "/music/beats-weeknds-122592/",
+      "alt": "Thanks for listening - please subscribe to my YouTube channel: https://www.youtube.com/c/Dayfox/featured Coffee ? Donations: contact@dayfox.de",
+      "title": null,
+      "description": "Background, Corporate, Promo, Soft, Tutorial, Vlog, Vlogging",
+      "name": "Weeknds",
+      "tagLinks": "<a href=\"/music/search/background/\">background</a> <a href=\"/music/search/corporate/\">corporate</a>",
+      "likeCount": 1644,
+      "likeHref": "/accounts/like/audio/122592/",
+      "commentCount": 42,
+      "commentHref": "/music/beats-weeknds-122592/#comments",
+      "contentIdCertificateUrl": "/music/122592/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/dayfox-29184718/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=122592\">DayFox</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=122592\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 29184718,
+        "username": "DayFox",
+        "firstName": "",
+        "lastName": "",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/08/10/16-56-20-687_96x96.jpg",
+        "profileUrl": "/users/dayfox-29184718/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/dayfox_de/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/dayfox",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCL5fKAhJJWsFwmQMX65WEDQ",
+            "type": 4
+          },
+          {
+            "url": "https://dayfox.de/",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "contact@dayfox.de",
+          "method": 2
+        },
+        "followerCount": 332,
+        "aboutMe": "If you have questions for usage or request for claim removal EMAIL ME TO: contact@dayfox.de",
+        "isAvailableForHire": false
+      },
+      "viewCount": 2675868,
+      "downloadCount": 19330
+    },
+    {
+      "id": 17,
+      "duration": 237,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2021/09/06/audio_14fb3b6893.mp3",
+        "waveformUrl": "/music/8037/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-8037.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.908256",
+      "href": "/music/main-title-battle-of-the-dragons-8037/",
+      "alt": "No Copy Right Music, Rpg Music",
+      "title": null,
+      "description": "No Copy Right Music, Rpg Music, Soundtrack, Background Music",
+      "name": "Battle Of The Dragons",
+      "tagLinks": "<a href=\"/music/search/no%20copy%20right%20music/\">no copy right music</a>",
+      "likeCount": 1118,
+      "likeHref": "/accounts/like/audio/8037/",
+      "commentCount": 65,
+      "commentHref": "/music/main-title-battle-of-the-dragons-8037/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/17406877-17406877/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=8037\">17406877</a> from <a href=\"https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=8037\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 17406877,
+        "username": "17406877",
+        "firstName": "",
+        "lastName": "",
+        "avatarSrc": "/static/img/profile_images/purple.svg",
+        "profileUrl": "/users/17406877-17406877/",
+        "socialLinks": [],
+        "donation": null,
+        "followerCount": 364,
+        "aboutMe": "",
+        "isAvailableForHire": false
+      },
+      "viewCount": 1790733,
+      "downloadCount": 133029
+    },
+    {
+      "id": 18,
+      "duration": 140,
+      "mediaType": "audio",
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/02/15/audio_1e79dbf2b9.mp3",
+        "waveformUrl": "/music/20928/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/02/05/04-26-56-933_200x200.png",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-20928.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.909251",
+      "href": "/music/beats-into-the-night-20928/",
+      "alt": "Central Cee, Chill, Uk Drill, Ny Drill",
+      "title": null,
+      "description": "Central Cee, Chill, Uk Drill, Ny Drill, Vlog, Music, Rapper",
+      "name": "Into The Night",
+      "tagLinks": "<a href=\"/music/search/central%20cee/\">central cee</a> <a href=\"/music/search/chill/\">chill</a>",
+      "likeCount": 2019,
+      "likeHref": "/accounts/like/audio/20928/",
+      "commentCount": 72,
+      "commentHref": "/music/beats-into-the-night-20928/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/prazkhanal-24653570/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20928\">Praz Khanal</a> from <a href=\"https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20928\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 24653570,
+        "username": "prazkhanal",
+        "firstName": "Praz",
+        "lastName": "Khanal",
+        "avatarSrc": "https://cdn.pixabay.com/user/2023/01/26/08-29-04-34_96x96.png",
+        "profileUrl": "/users/prazkhanal-24653570/",
+        "socialLinks": [
+          {
+            "url": "https://www.facebook.com/Prazkhanalofficial",
+            "type": 0
+          },
+          {
+            "url": "https://twitter.com/prazkhanal",
+            "type": 1
+          },
+          {
+            "url": "https://www.instagram.com/prazkhanalmusic/",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/praz_khanal",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/prazkhanal",
+            "type": 4
+          },
+          {
+            "url": "https://www.patreon.com/prazkhanalofficial",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "prashantkhanal1750@gmail.com",
+          "method": 2
+        },
+        "followerCount": 1467,
+        "aboutMe": "Production Team: UKA Music Publishing\r\nGet Soundtrack on Spotify: bit.ly/spotifypraz\r\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\r\nCopyright claims are updated every Monday. \r\n\r\n|All music is copyright free|\r\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014",
+        "isAvailableForHire": true
+      },
+      "viewCount": 3200900,
+      "downloadCount": 121497
+    },
+    {
+      "id": 19,
+      "duration": 241,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/07/30/audio_cb437bacae.mp3",
+        "waveformUrl": "/music/115949/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/05/29/14-31-39-160_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-115949.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.911137",
+      "href": "/music/corporate-summer-adventures-115949/",
+      "alt": "Link to the track in the Facebook/Instagram audio library: https://www.instagram.com/reels/audio/651275893506505/",
+      "title": null,
+      "description": "Positive, Optimistic, Guitar, Inspirational, Adventure",
+      "name": "Summer Adventures",
+      "tagLinks": "<a href=\"/music/search/positive/\">positive</a> <a href=\"/music/search/optimistic/\">optimistic</a>",
+      "likeCount": 1291,
+      "likeHref": "/accounts/like/audio/115949/",
+      "commentCount": 13,
+      "commentHref": "/music/corporate-summer-adventures-115949/#comments",
+      "contentIdCertificateUrl": "/music/115949/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/sergepavkinmusic-6130722/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115949\">Sergii Pavkin</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115949\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 8.0,
+      "user": {
+        "id": 6130722,
+        "username": "SergePavkinMusic",
+        "firstName": "Sergii",
+        "lastName": "Pavkin",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/08/21/16-02-00-746_96x96.jpg",
+        "profileUrl": "/users/sergepavkinmusic-6130722/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/sergepavkinmusic/",
+            "type": 2
+          },
+          {
+            "url": "https://www.youtube.com/c/SergePavkinMusic",
+            "type": 4
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.buymeacoffee.com/SergePavkin",
+          "method": 1
+        },
+        "followerCount": 1035,
+        "aboutMe": "Hi, you can use my music for free in your YouTube Videos and Shorts, TikTok Videos, Facebook/Instagram Reels (find my tracks in Facebook/Instagram audio library).\r\n\r\nNOT for songs, apps, music libraries!\r\nNOT for distribution on streaming platforms and digital stores (Spotify, Amazon, Apple music e.t.c.)!\r\n\r\nhttps://www.youtube.com/c/SergePavkinMusic\r\nhttps://open.spotify.com/artist/0QCoTG5IWHTncQ8A1uoUxM\r\nhttps://music.apple.com/us/artist/serge-pavkin/1540924634\r\nand more.",
+        "isAvailableForHire": false
+      },
+      "viewCount": 37781,
+      "downloadCount": 11404
+    },
+    {
+      "id": 20,
+      "duration": 153,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2023/07/22/audio_720626056a.mp3",
+        "waveformUrl": "/music/159065/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/07/22/02-53-18-138_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-159065.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.912319",
+      "href": "/music/beats-tvari-tokyo-cafe-159065/",
+      "alt": "Japan, Cafe, No Copyright, Free To Use",
+      "title": null,
+      "description": "Japan, Cafe, No Copyright, Free To Use, Vlog Music",
+      "name": "TVARI - Tokyo Cafe",
+      "tagLinks": "<a href=\"/music/search/japan/\">japan</a> <a href=\"/music/search/cafe/\">cafe</a> <a href=\"/music/search/no%20copyright/\">no copyright</a>",
+      "likeCount": 923,
+      "likeHref": "/accounts/like/audio/159065/",
+      "commentCount": 14,
+      "commentHref": "/music/beats-tvari-tokyo-cafe-159065/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/tvari-38302100/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=159065\">TVARI</a> from <a href=\"https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=159065\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 8.5,
+      "user": {
+        "id": 38302100,
+        "username": "TVARI",
+        "firstName": "",
+        "lastName": "",
+        "avatarSrc": "https://cdn.pixabay.com/user/2023/07/22/03-12-57-448_96x96.jpg",
+        "profileUrl": "/users/tvari-38302100/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/tvarimusic",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/tvarimusic",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/@tvarimusic",
+            "type": 4
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.buymeacoffee.com/tvarimusic",
+          "method": 1
+        },
+        "followerCount": 110,
+        "aboutMe": "It is mandatory to give credits in video description.\r\n\r\nAnd please support my work on all platforms such as Spotify, Soundcloud, Youtube. If you are a company interested in using my music in commercial advertisements, conferences, or podcasts, please contact me for a license.",
+        "isAvailableForHire": false
+      },
+      "viewCount": 2321,
+      "downloadCount": 6383
+    },
+    {
+      "id": 21,
+      "duration": 131,
+      "mediaType": "audio",
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/07/26/audio_ed0c111294.mp3",
+        "waveformUrl": "/music/115669/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2022/08/02/19-30-57-50_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-115669.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.913447",
+      "href": "/music/beautiful-plays-cinematic-documentary-115669/",
+      "alt": "Travel, Beautiful, Cinematic, Discovery",
+      "title": null,
+      "description": "Travel, Beautiful, Cinematic, Discovery, Documentary",
+      "name": "Cinematic Documentary",
+      "tagLinks": "<a href=\"/music/search/travel/\">travel</a> <a href=\"/music/search/beautiful/\">beautiful</a>",
+      "likeCount": 2088,
+      "likeHref": "/accounts/like/audio/115669/",
+      "commentCount": 1,
+      "commentHref": "/music/beautiful-plays-cinematic-documentary-115669/#comments",
+      "contentIdCertificateUrl": "/music/115669/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/lexin_music-28841948/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115669\">Aleksey Chistilin</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115669\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.5,
+      "user": {
+        "id": 28841948,
+        "username": "Lexin_Music",
+        "firstName": "Aleksey",
+        "lastName": "Chistilin",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/08/02/19-54-43-212_96x96.jpg",
+        "profileUrl": "/users/lexin_music-28841948/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/chistilin_aleksey/",
+            "type": 2
+          },
+          {
+            "url": "https://www.youtube.com/c/AlekseyChistilin",
+            "type": 4
+          },
+          {
+            "url": "https://linktr.ee/alekseychistilin",
+            "type": 5
+          }
+        ],
+        "donation": null,
+        "followerCount": 3457,
+        "aboutMe": "My name is Aleksey Chistilin, and I'm a composer. My passion for music drives everything I do, and I am constantly striving to create works that touch the hearts and souls of my listeners.\r\n\r\nIf you'd like to support my work, the best way to do so is by subscribing to my YouTube channel \r\n\r\n\"ALEKSEY CHISTILIN\". \r\n\r\nP.S. links to my resources on my Pixabay profile page.",
+        "isAvailableForHire": false
+      },
+      "viewCount": 2511216,
+      "downloadCount": 26020
+    },
+    {
+      "id": 22,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 121,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2021/10/15/audio_2320f2b0bc.mp3",
+        "waveformUrl": "/music/9489/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-9489.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.914555",
+      "href": "/music/main-title-epic-hollywood-trailer-9489/",
+      "alt": "Battle, Build Up, Choir, Cinematic",
+      "title": null,
+      "description": "Battle, Build Up, Choir, Cinematic, Cinematic Trailer",
+      "name": "Epic Hollywood Trailer",
+      "tagLinks": "<a href=\"/music/search/battle/\">battle</a> <a href=\"/music/search/build%20up/\">build up</a> <a href=\"/music/search/choir/\">choir</a>",
+      "likeCount": 1737,
+      "likeHref": "/accounts/like/audio/9489/",
+      "commentCount": 13,
+      "commentHref": "/music/main-title-epic-hollywood-trailer-9489/#comments",
+      "contentIdCertificateUrl": "/music/9489/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/daddy_s_music-22836301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=9489\">Zakhar Valaha</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=9489\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.5,
+      "user": {
+        "id": 22836301,
+        "username": "Daddy_s_Music",
+        "firstName": "Zakhar",
+        "lastName": "Valaha",
+        "avatarSrc": "https://cdn.pixabay.com/user/2021/11/15/21-52-29-99_96x96.png",
+        "profileUrl": "/users/daddy_s_music-22836301/",
+        "socialLinks": [
+          {
+            "url": "https://bit.ly/Spotify_Zakhar_Valaha",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "valaga83@gmail.com",
+          "method": 2
+        },
+        "followerCount": 3707,
+        "aboutMe": "All my music is registered in Content ID because it is the only method to protect my music from scammers who have repeatedly appropriated the rights to my tracks. Therefore, after uploading your video, just send the link to zaharval83@gmail.com and within 1-2 days the claim will be withdrawn.\r\nPayPal: https://bit.ly/Zakhar_Valaha_PayPal\r\nSpotify: https://bit.ly/Spotify_Zakhar_Valaha",
+        "isAvailableForHire": false
+      },
+      "viewCount": 1891360,
+      "downloadCount": 88827
+    },
+    {
+      "id": 23,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 179,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2021/12/16/audio_e13e329328.mp3",
+        "waveformUrl": "/music/12278/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-12278.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.915665",
+      "href": "/music/future-bass-embrace-12278/",
+      "alt": "Love, Uplifting, Happy, Orchestral",
+      "title": null,
+      "description": "Love, Uplifting, Happy, Orchestral, Marching, Positive",
+      "name": "Embrace",
+      "tagLinks": "<a href=\"/music/search/love/\">love</a> <a href=\"/music/search/uplifting/\">uplifting</a> <a href=\"/music/search/happy/\">happy</a>",
+      "likeCount": 1312,
+      "likeHref": "/accounts/like/audio/12278/",
+      "commentCount": 30,
+      "commentHref": "/music/future-bass-embrace-12278/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/itswatr-12344345/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=12278\">Jonas</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=12278\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 12344345,
+        "username": "ItsWatR",
+        "firstName": "Jonas",
+        "lastName": "",
+        "avatarSrc": "https://cdn.pixabay.com/user/2023/02/26/00-34-11-752_96x96.jpg",
+        "profileUrl": "/users/itswatr-12344345/",
+        "socialLinks": [
+          {
+            "url": "https://instagram.com/soundslikewatr",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/itswatr",
+            "type": 3
+          },
+          {
+            "url": "https://linktr.ee/itswatr",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.paypal.me/BearCity",
+          "method": 1
+        },
+        "followerCount": 819,
+        "aboutMe": "Norwegian Music Producer \r\nhttps://linktr.ee/itswatr",
+        "isAvailableForHire": false
+      },
+      "viewCount": 2903854,
+      "downloadCount": 75527
+    },
+    {
+      "id": 24,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 182,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3",
+        "waveformUrl": "/music/10169/waveform.json",
+        "thumbnailUrl": "",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-10169.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.917030",
+      "href": "/music/electronic-town-10169/",
+      "alt": "Show, Music, Musician, Sound",
+      "title": null,
+      "description": "Show, Music, Musician, Sound, Celebration, Party, Emotion",
+      "name": "Town",
+      "tagLinks": "<a href=\"/music/search/show/\">show</a> <a href=\"/music/search/music/\">music</a> <a href=\"/music/search/musician/\">musician</a>",
+      "likeCount": 959,
+      "likeHref": "/accounts/like/audio/10169/",
+      "commentCount": 37,
+      "commentHref": "/music/electronic-town-10169/#comments",
+      "contentIdCertificateUrl": null,
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/becorbal-12069858/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=10169\">Bernardo Pontual Be Corbal</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=10169\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 12069858,
+        "username": "BeCorbal",
+        "firstName": "Bernardo Pontual",
+        "lastName": "Be Corbal",
+        "avatarSrc": "https://cdn.pixabay.com/user/2021/11/01/19-03-04-531_96x96.jpg",
+        "profileUrl": "/users/becorbal-12069858/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/be.corbal",
+            "type": 2
+          },
+          {
+            "url": "https://soundcloud.com/bernardo-corbal",
+            "type": 3
+          },
+          {
+            "url": "https://www.youtube.com/channel/UCAql2a2OmUGX1arpdttMCWQ",
+            "type": 4
+          },
+          {
+            "url": "https://open.spotify.com/artist/1epKcnjL8eUDsxjlVJ635c?si=X8VZnIldT52FUw9aWjH1EA",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "RWFX3D6CK3MLU",
+          "method": 2
+        },
+        "followerCount": 175,
+        "aboutMe": "",
+        "isAvailableForHire": false
+      },
+      "viewCount": 1666442,
+      "downloadCount": 65932
+    },
+    {
+      "id": 25,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 216,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/05/13/audio_c490e37598.mp3",
+        "waveformUrl": "/music/111206/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2022/05/13/23-13-29-354_200x200.jpeg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-111206.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.919010",
+      "href": "/music/beautiful-plays-anthem-of-victory-111206/",
+      "alt": "SPOTIFY: https://bit.ly/48yUb48",
+      "title": null,
+      "description": "Victory, Himn, Anthem, The Best, Sport Music",
+      "name": "Anthem of Victory",
+      "tagLinks": "<a href=\"/music/search/victory/\">victory</a> <a href=\"/music/search/himn/\">himn</a> <a href=\"/music/search/anthem/\">anthem</a>",
+      "likeCount": 649,
+      "likeHref": "/accounts/like/audio/111206/",
+      "commentCount": 0,
+      "commentHref": "/music/beautiful-plays-anthem-of-victory-111206/#comments",
+      "contentIdCertificateUrl": "/music/111206/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/daddy_s_music-22836301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=111206\">Zakhar Valaha</a> from <a href=\"https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=111206\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 22836301,
+        "username": "Daddy_s_Music",
+        "firstName": "Zakhar",
+        "lastName": "Valaha",
+        "avatarSrc": "https://cdn.pixabay.com/user/2021/11/15/21-52-29-99_96x96.png",
+        "profileUrl": "/users/daddy_s_music-22836301/",
+        "socialLinks": [
+          {
+            "url": "https://bit.ly/Spotify_Zakhar_Valaha",
+            "type": 5
+          }
+        ],
+        "donation": {
+          "paypal": "valaga83@gmail.com",
+          "method": 2
+        },
+        "followerCount": 3707,
+        "aboutMe": "All my music is registered in Content ID because it is the only method to protect my music from scammers who have repeatedly appropriated the rights to my tracks. Therefore, after uploading your video, just send the link to zaharval83@gmail.com and within 1-2 days the claim will be withdrawn.\r\nPayPal: https://bit.ly/Zakhar_Valaha_PayPal\r\nSpotify: https://bit.ly/Spotify_Zakhar_Valaha",
+        "isAvailableForHire": false
+      },
+      "viewCount": 1383962,
+      "downloadCount": 13419
+    },
+    {
+      "id": 26,
+      "isFavourite": false,
+      "color": ["black", "rgb(210 221 223))"],
+      "duration": 299,
+      "mediaType": "audio",
+      "mediaSubType": 3,
+      "mediaDescriptiveType": "music",
+      "sources": {
+        "src": "https://cdn.pixabay.com/audio/2022/07/30/audio_0fea22d728.mp3",
+        "waveformUrl": "/music/115977/waveform.json",
+        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/05/29/14-28-47-55_200x200.jpg",
+        "thumbnailOrientation": "portrait",
+        "downloadUrl": "/music/download/id-115977.mp3"
+      },
+      "nsfw": false,
+      "isAiGenerated": false,
+      "uploadDate": "2023-12-01T06:00:17.919699",
+      "href": "/music/beautiful-plays-smooth-waters-115977/",
+      "alt": "Link to the track in the Facebook/Instagram audio library: https://www.instagram.com/reels/audio/519843260336291/",
+      "title": null,
+      "description": "Serene, Calm, Peaceful, Tranquility, Ethereal",
+      "name": "Smooth Waters",
+      "tagLinks": "<a href=\"/music/search/serene/\">serene</a> <a href=\"/music/search/calm/\">calm</a> <a href=\"/music/search/peaceful/\">peaceful</a>",
+      "likeCount": 850,
+      "likeHref": "/accounts/like/audio/115977/",
+      "commentCount": 53,
+      "commentHref": "/music/beautiful-plays-smooth-waters-115977/#comments",
+      "contentIdCertificateUrl": "/music/115977/license/",
+      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/sergepavkinmusic-6130722/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115977\">Sergii Pavkin</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115977\">Pixabay</a>",
+      "vector": false,
+      "isEditorsChoice": true,
+      "isLowQuality": false,
+      "qualityStatus": 5,
+      "rating": 9.0,
+      "user": {
+        "id": 6130722,
+        "username": "SergePavkinMusic",
+        "firstName": "Sergii",
+        "lastName": "Pavkin",
+        "avatarSrc": "https://cdn.pixabay.com/user/2022/08/21/16-02-00-746_96x96.jpg",
+        "profileUrl": "/users/sergepavkinmusic-6130722/",
+        "socialLinks": [
+          {
+            "url": "https://www.instagram.com/sergepavkinmusic/",
+            "type": 2
+          },
+          {
+            "url": "https://www.youtube.com/c/SergePavkinMusic",
+            "type": 4
+          }
+        ],
+        "donation": {
+          "paypal": "https://www.buymeacoffee.com/SergePavkin",
+          "method": 1
+        },
+        "followerCount": 1035,
+        "aboutMe": "Hi, you can use my music for free in your YouTube Videos and Shorts, TikTok Videos, Facebook/Instagram Reels (find my tracks in Facebook/Instagram audio library).\r\n\r\nNOT for songs, apps, music libraries!\r\nNOT for distribution on streaming platforms and digital stores (Spotify, Amazon, Apple music e.t.c.)!\r\n\r\nhttps://www.youtube.com/c/SergePavkinMusic\r\nhttps://open.spotify.com/artist/0QCoTG5IWHTncQ8A1uoUxM\r\nhttps://music.apple.com/us/artist/serge-pavkin/1540924634\r\nand more.",
+        "isAvailableForHire": false
+      },
+      "viewCount": 1175232,
+      "downloadCount": 10248
+    }
+  ]
+}

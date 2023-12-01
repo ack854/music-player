@@ -45,7 +45,6 @@ const Player = ({
   const [message, setMessage] = useState();
   const dispatch = useDispatch();
 
-  console.log(currentSong, songInfo);
 
   const handleClick = (isFav) => {
     if (isFav) {
@@ -168,7 +167,7 @@ const Player = ({
   };
 
   const handleDownload = () => {
-    const audioFileUrl = currentSong.audio;
+    const audioFileUrl = currentSong?.sources?.src;
     const downloadLink = document.createElement("a");
     downloadLink.href = audioFileUrl;
     downloadLink.download = `${currentSong.name}.mp3`;
@@ -178,7 +177,6 @@ const Player = ({
   };
 
   const handleAutoplay = (event) => {
-    console.log(event?.target?.checked);
     setIsAutoPlay(event?.target?.checked);
   };
   const action = (

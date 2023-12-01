@@ -1,6 +1,7 @@
 import React from "react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import Stack from "@mui/material/Stack";
+import logo from "../assets/images/H.jpg";
 const LibrarySong = ({
   song,
   songs,
@@ -36,13 +37,20 @@ const LibrarySong = ({
       className={`library-song ${song?.active ? "selected" : ""}`}
     >
       <Stack direction="row" spacing={5}>
-        <img src={song?.cover} alt={song?.name} />
+        <img
+          src={
+            song?.sources?.thumbnailUrl !== ""
+              ? song?.sources?.thumbnailUrl
+              : logo
+          }
+          alt={song?.name}
+        />
         <div className="song-description">
           <h3>{song?.name}</h3>
-          <h4>{song?.artist}</h4>
+          <h4>{song?.user?.username}</h4>
         </div>
         {song.isFavourite ? (
-          <FavoriteIcon sx={{ fontSize: 20, color: "#2e7d32"}} />
+          <FavoriteIcon sx={{ fontSize: 20, color: "#2e7d32" }} />
         ) : null}
       </Stack>
     </div>

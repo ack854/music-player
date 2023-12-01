@@ -1,13 +1,21 @@
-import React from "react"; 
+import React from "react";
+import logo from "../assets/images/H.jpg";
+const Song = ({ currentSong }) => {
+  return (
+    <div className="song-container">
+      <img
+        src={
+          currentSong?.sources?.thumbnailUrl !== ""
+            ? currentSong?.sources?.thumbnailUrl
+            : logo
+        }
+        alt={currentSong?.name}
+        style={{ borderRadius: "50%", animation: `spin ${8}s linear infinite` }}
+      />
+      <h2>{currentSong?.name}</h2>
+      <h3>{currentSong?.user?.username}</h3>
+    </div>
+  );
+};
 
-const Song = ({ currentSong }) => { 
-	return ( 
-		<div className="song-container"> 
-			<img src={currentSong?.cover} alt={currentSong?.name}  style={{borderRadius:'50%', animation: `spin ${5}s linear infinite`}}/> 
-			<h2>{currentSong?.name}</h2> 
-			<h3>{currentSong?.artist}</h3> 
-		</div> 
-	); 
-}; 
-
-export default Song; 
+export default Song;

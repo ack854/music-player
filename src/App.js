@@ -53,16 +53,11 @@ function App() {
     });
   };
   const songEndHandler = async () => {
-    console.log("end");
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-    console.log(currentIndex);
     await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
     setIsPlaying(!isPlaying);
-    console.log(isAutoPlay);
-    //if (isPlaying) audioRef.current.play();
     if (isAutoPlay) {
       setIsPlaying(true);
-      console.log(audioRef?.current);
       if (audioRef?.current) {
         setTimeout(() => {
           audioRef?.current?.play();
@@ -102,7 +97,7 @@ function App() {
       <audio
         onLoadedMetadata={timeUpdateHandler}
         onTimeUpdate={timeUpdateHandler}
-        src={currentSong?.audio}
+        src={currentSong?.sources?.src}
         ref={audioRef}
         onEnded={songEndHandler}
       ></audio>
