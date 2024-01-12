@@ -1389,69 +1389,6 @@
       },
       "viewCount": 1383962,
       "downloadCount": 13419
-    },
-    {
-      "id": 26,
-      "isFavourite": false,
-      "color": ["black", "rgb(210 221 223))"],
-      "duration": 299,
-      "mediaType": "audio",
-      "mediaSubType": 3,
-      "mediaDescriptiveType": "music",
-      "sources": {
-        "src": "https://cdn.pixabay.com/audio/2022/07/30/audio_0fea22d728.mp3",
-        "waveformUrl": "/music/115977/waveform.json",
-        "thumbnailUrl": "https://cdn.pixabay.com/audio/2023/05/29/14-28-47-55_200x200.jpg",
-        "thumbnailOrientation": "portrait",
-        "downloadUrl": "/music/download/id-115977.mp3"
-      },
-      "nsfw": false,
-      "isAiGenerated": false,
-      "uploadDate": "2023-12-01T06:00:17.919699",
-      "href": "/music/beautiful-plays-smooth-waters-115977/",
-      "alt": "Link to the track in the Facebook/Instagram audio library: https://www.instagram.com/reels/audio/519843260336291/",
-      "title": null,
-      "description": "Serene, Calm, Peaceful, Tranquility, Ethereal",
-      "name": "Smooth Waters",
-      "tagLinks": "<a href=\"/music/search/serene/\">serene</a> <a href=\"/music/search/calm/\">calm</a> <a href=\"/music/search/peaceful/\">peaceful</a>",
-      "likeCount": 850,
-      "likeHref": "/accounts/like/audio/115977/",
-      "commentCount": 53,
-      "commentHref": "/music/beautiful-plays-smooth-waters-115977/#comments",
-      "contentIdCertificateUrl": "/music/115977/license/",
-      "attributionHtml": "Music by <a href=\"https://pixabay.com/users/sergepavkinmusic-6130722/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115977\">Sergii Pavkin</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=115977\">Pixabay</a>",
-      "vector": false,
-      "isEditorsChoice": true,
-      "isLowQuality": false,
-      "qualityStatus": 5,
-      "rating": 9.0,
-      "user": {
-        "id": 6130722,
-        "username": "SergePavkinMusic",
-        "firstName": "Sergii",
-        "lastName": "Pavkin",
-        "avatarSrc": "https://cdn.pixabay.com/user/2022/08/21/16-02-00-746_96x96.jpg",
-        "profileUrl": "/users/sergepavkinmusic-6130722/",
-        "socialLinks": [
-          {
-            "url": "https://www.instagram.com/sergepavkinmusic/",
-            "type": 2
-          },
-          {
-            "url": "https://www.youtube.com/c/SergePavkinMusic",
-            "type": 4
-          }
-        ],
-        "donation": {
-          "paypal": "https://www.buymeacoffee.com/SergePavkin",
-          "method": 1
-        },
-        "followerCount": 1035,
-        "aboutMe": "Hi, you can use my music for free in your YouTube Videos and Shorts, TikTok Videos, Facebook/Instagram Reels (find my tracks in Facebook/Instagram audio library).\r\n\r\nNOT for songs, apps, music libraries!\r\nNOT for distribution on streaming platforms and digital stores (Spotify, Amazon, Apple music e.t.c.)!\r\n\r\nhttps://www.youtube.com/c/SergePavkinMusic\r\nhttps://open.spotify.com/artist/0QCoTG5IWHTncQ8A1uoUxM\r\nhttps://music.apple.com/us/artist/serge-pavkin/1540924634\r\nand more.",
-        "isAvailableForHire": false
-      },
-      "viewCount": 1175232,
-      "downloadCount": 10248
     }
   ]
 }
